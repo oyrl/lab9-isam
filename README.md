@@ -39,13 +39,13 @@ $ rosrun isam isam_covariances
 
 Please draw the diagram of the example.cpp graph. How many nodes and factors are in the factor graph?
 
-### 2. Covarience Matrix and Jacobian Matrix
+### 2. Covariance Matrix and Jacobian Matrix
 
-Could you explain the relationship between Covarience Matrix and Jacobian Matrix (see covariances.cpp, line 71-81.)
+Could you explain the relationship between Covariance Matrix and Jacobian Matrix (see covariances.cpp, line 71-81.) Do you know how to compute Jacobian matrix from the covariance matrix?
 
-### 3. Covarience Matrix in the Factor Graph in 1.
+### 3. Covariance Matrix in the Factor Graph in 1.
 
-What are the dimensions of the covarience matrix of the factor graph in example.cpp? Please show the covarience matrix in terminal.
+What are the dimensions of the covariance matrix of the factor graph in example.cpp? Please show the covariance matrix in terminal.
 
 
 
