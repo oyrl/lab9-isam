@@ -22,7 +22,7 @@
 *.app
 *.pyc
 
-*.cmake
+#*.cmake
 *.make
 catkin_ws/install
 catkin_ws/build
