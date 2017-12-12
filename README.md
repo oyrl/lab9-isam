@@ -19,6 +19,8 @@ $ cd lab9-isam
 $ source environment.sh
 $ cd catkin_ws
 $ catkin_make
+Uncomment lines 72~84 in lab9-isam/catkin_ws/src/isam/CMakeLists.txt
+$ catkin_make
 ```
 
 ## Run the Examples
