@@ -69,16 +69,16 @@ include_directories(
 )
 
 add_subdirectory(isamlib)
-add_subdirectory(isam)
-add_subdirectory(examples)
-add_subdirectory(misc)
+#add_subdirectory(isam)
+#add_subdirectory(examples)
+#add_subdirectory(misc)
 
-find_library(isam_LIBRARIES isam ${catkin_INCLUDE_DIRS})
-
-add_executable(isam_example ${PROJECT_SOURCE_DIR}/examples/example.cpp)
-add_dependencies(isam_example ${catkin_EXPORTED_TARGETS})
-target_link_libraries(isam_example ${catkin_LIBRARIES} ${isam_LIBRARIES})
-
-add_executable(isam_covariances ${PROJECT_SOURCE_DIR}/examples/covariances.cpp)
-add_dependencies(isam_covariances ${catkin_EXPORTED_TARGETS})
-target_link_libraries(isam_covariances ${catkin_LIBRARIES} ${isam_LIBRARIES})
+# find_library(isam_LIBRARIES isam ${catkin_INCLUDE_DIRS})
+# 
+# add_executable(isam_example ${PROJECT_SOURCE_DIR}/examples/example.cpp)
+# add_dependencies(isam_example ${catkin_EXPORTED_TARGETS})
+# target_link_libraries(isam_example ${catkin_LIBRARIES} ${isam_LIBRARIES})
+# 
+# add_executable(isam_covariances ${PROJECT_SOURCE_DIR}/examples/covariances.cpp)
+# add_dependencies(isam_covariances ${catkin_EXPORTED_TARGETS})
+# target_link_libraries(isam_covariances ${catkin_LIBRARIES} ${isam_LIBRARIES})
